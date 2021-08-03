@@ -4,17 +4,20 @@ const STOICS = [
   {
     id: "1",
     name: "Epictetus",
-    years: "55–135 C.E",
+    birth: 55,
+    death: 135,
   },
   {
     id: "2",
     name: "Marcus Aurelius",
-    years: "121-180 C.E",
+    birth: 121,
+    death: 180,
   },
   {
     id: "3",
     name: "Seneca",
-    years: "4 B.C. - 65 C.E",
+    birth: -4,
+    death: 65,
   },
 ];
 
