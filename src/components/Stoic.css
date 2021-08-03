@@ -1,0 +1,22 @@
+.stoic-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stoic-container h1 {
+  margin-bottom: 10px;
+}
+
+.stoic-container p {
+  font-size: 1.1rem;
+  text-align: justify;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+  .stoic-years {
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+  }
