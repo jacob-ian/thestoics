@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+:root {
+  --background-color: rgb(240, 228, 195);
+  --button-hover: rgba(0,0,0,0.2);
+  --font-display: Merriweather, sans-serif;
+}
+
 html, body {
   min-height: 100%;
   margin: 0;
@@ -10,6 +16,7 @@ html, body {
 }
 
 body {
+  background-color: var(--background-color);
   flex: 1;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -41,5 +48,6 @@ a:hover{
 }
 
 h1 {
-  font-family: Merriweather, sans-serif
+  font-family: Merriweather, sans-serif;
+  margin-bottom: 50px
 }
