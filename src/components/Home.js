@@ -3,11 +3,12 @@ import "./Home.css";
 import StoicListItem from "./StoicListItem";
 
 export default function Home(props) {
-  const stoics = props.stoics.map((stoic) => (
-    <StoicListItem key={stoic.id} id={stoic.id} name={stoic.name} />
-  ));
-
   useTitle("Home");
+
+  let stoics = props.stoics.sort((a, b) => a.birth - b.birth);
+  stoics = props.stoics.map((stoic) => (
+    <StoicListItem key={stoic.id} {...stoic} />
+  ));
 
   return (
     <div className="home-container">
