@@ -1,0 +1,40 @@
+.stoic-li {
+  list-style: none;
+  border: 1px solid black;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  width: 100%;
+  transition: all ease-in-out 300ms;
+}
+
+.stoic-li:last-child {
+  margin-bottom: 0;
+}
+
+.stoic-li:hover {
+  background-color: var(--button-hover)
+}
+
+.stoic-li a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 25px 50px;
+}
+
+  .stoic-li-name {
+    order: 2;
+    font-size: 1.5rem;
+    font-family: Merriweather, sans-serif;
+    margin-left: 25px;
+  }
+
+  .stoic-li-years {
+    text-align: right;
+  }
+
+.stoic-li a:hover {
+  text-decoration: none;
+
+}
