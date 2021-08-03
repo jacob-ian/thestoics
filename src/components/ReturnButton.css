@@ -1,0 +1,13 @@
+.return-button {
+  border: 1px solid black;
+  padding: 15px 25px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-family: var(--font-display);
+  font-weight: 700
+}
+
+.return-button:hover {
+  text-decoration: none;
+  background: var(--button-hover)
+}
